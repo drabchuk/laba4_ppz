@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ffjcext1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/deploy/ffjcext.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

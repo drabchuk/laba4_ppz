@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/packager.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/jconsole.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/ant-javafx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/dt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/javafx-mx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/sa-jdi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

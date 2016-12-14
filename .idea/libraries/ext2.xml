@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="ext2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/localedata.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/sunjce_provider.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/jaccess.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/sunec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/nashorn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/dnsns.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/zipfs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/jfxrt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/cldrdata.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/ojdbc7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/access-bridge-64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/sunmscapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jre1.8.0_111/lib/ext/sunpkcs11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

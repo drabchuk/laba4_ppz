@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com-sun-tools-visualvm-modules-startup">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/visualvm/visualvm/core/com-sun-tools-visualvm-modules-startup.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+   <h:head>
+       <title>MyMath Interpreter</title>
+       <h:outputStylesheet library="css" name="colors.css"></h:outputStylesheet>
+       <h:outputStylesheet library="css" name="style.css"></h:outputStylesheet>
+       <h:outputStylesheet href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' library="css" name="style.css"></h:outputStylesheet>
+   </h:head>
+   <h:body class="body-class">
+       <div id="top-header" class="top-header dark-primary-color"></div>
+       <div id="header" class="header default-primary-color">
+           <h1 class="text-primary-color">MyMath Interpreter</h1>
+           <h5 class="purple-secondary-text-color">Type your command!</h5>
+       </div>
+       <h:form id="input">
+           <div class="sheet-of-paper">
+               <h:inputText id="inputText" title="Input comand to execute" value="#{inputCommandBean.inputData}" styleClass="input-window">
+               </h:inputText>
+               <!--h:commandButton id="submit" value="GO!" action="response" styleClass="button-input accent-color"-->
+               <h:commandButton id="submit" value="GO!" styleClass="button-input accent-color">
+                   <f:ajax execute="inputText" render="outputSolution"/>
+               </h:commandButton>
+           </div>
+           <div class="sheet-of-paper">
+               <h:panelGroup layout="block" id="outputSolution">
+                   <!--h:outputText id="result" styleClass="secondary-text-color"
+                                 value="#{inputCommandBean.response}"
+                                 rendered="#{!facesContext.validationFailed}"/-->
+                   <h:dataTable id = "result" styleClass="secondary-text-color"
+                                value="#{inputCommandBean.response}" var = "response"
+                                rendered="#{!facesContext.validationFailed}">
+
+                       <h:column>
+                               #{response}
+                       </h:column>
+
+                   </h:dataTable>
+                   <h:message id="errors1"
+                              showSummary="true"
+                              showDetail="false"
+                              style="color: #d20005;
+                               font-family: 'New Century Schoolbook', serif;
+                               font-style: oblique;
+                               text-decoration: overline"
+                              for="inputText"/>
+               </h:panelGroup>
+           </div>
+       </h:form>
+   </h:body>
+</html>

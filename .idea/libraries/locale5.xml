@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="locale5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/visualvm/profiler/lib/locale/jfluid-server_zh_CN.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/MyMathInterpreterGUI_war_exploded/WEB-INF/classes/jdk1.8.0_102/lib/visualvm/profiler/lib/locale/jfluid-server_ja.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
